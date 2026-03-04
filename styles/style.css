@@ -201,6 +201,14 @@ html :where(.is-position-sticky){
   html :where(.is-position-sticky){
     --wp-admin--admin-bar--position-offset:0px;
   }
+
+  body .is-layout-grid {
+    display: block;
+  }
+
+  body .is-layout-grid .wp-block-group {
+    margin-bottom: 30px;
+  }
 }
 
 :root :where(.wp-block-button.is-style-button-brand--2 .wp-block-button__link){background-color: var(--wp--preset--color--primary);color: var(--wp--preset--color--base);}
